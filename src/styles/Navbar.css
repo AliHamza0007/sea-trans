@@ -1,0 +1,143 @@
+.Logo {
+  width: 140px;
+}
+.phoneIcon {
+  background: red;
+  border: 6px solid #ff8b95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  transition: all 100ms ease-out;
+}
+.phoneIcon:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+
+  transition: all 100ms ease-in;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-color: white;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 100ms ease;
+}
+.navbar-toggler-icon:hover {
+  color: white;
+  background-color: red;
+  transition: all 100ms ease;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+  transition: 1s;
+}
+button[aria-expanded="false"] .fa-times {
+  display: none;
+  transition: 1s;
+}
+.navbarBig .nav-link {
+  /* font-family: Gilroy-SemiBold; */
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+.navbarBig .nav-link:hover {
+  color: red;
+}
+.navbarBig .nav-link.active {
+  color: red !important;
+}
+.dropdown-content {
+  min-width: 300px;
+}
+.navbarSmall .nav-link {
+  background: white;
+  color: rgb(105, 105, 105);
+  padding: 8px 20px;
+  /* font-family: Gilroy-SemiBold!important; */
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.navbarSmall .nav-link:hover {
+  background: red;
+  color: white;
+}
+.navbarSmall .nav-link.active {
+  background: red;
+  color: white;
+}
+.dropdown-content {
+  background: white;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .nav-link {
+  padding: 8px 20px;
+
+  color: rgb(105, 105, 105) !important;
+}
+.dropdown .nav-link:hover {
+  background: red;
+  color: white !important;
+}
+.dropdown .nav-link.active {
+  background: red;
+  color: white !important;
+}
+.navbarContact {
+  color: white !important;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-family: Gilroy-bold;
+  font-weight: 600;
+}
+.navbarBg {
+  background: transparent;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+}
+.navbarScroll {
+  background: #f57979;
+}
+/* //handle home btn  */
+.contactHome {
+  display: none;
+}
+.Home {
+  display: block;
+}
+.contactPage .Home {
+  display: none;
+}
+.contactPage .contactHome {
+  display: block;
+}
+.contactPage .navbarBg {
+  background: #f57979;
+}

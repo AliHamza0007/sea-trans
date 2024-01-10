@@ -1,0 +1,135 @@
+.about {
+  height: 1000px;
+  background-color: #84aac6;
+  background-image: url(../assets/about/Fondo_Sea-trans.webp);
+  background-position: 0px -165px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .logo {
+  top: 2%;
+}
+
+.about .card p {
+  color: #6e6e6e;
+  font-family: Gilroy-SemiBold;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.about .aboutBtn {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about .BottomLogo {
+  position: absolute;
+  bottom: -5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vedioDiv {
+  position: relative;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  background: red;
+  border: 8px solid #ff8b95;
+
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  opacity: 0.8;
+  transition: all 100ms ease-out;
+}
+.fa-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  font-size: 30px;
+}
+.play-1 {
+  color: white !important;
+}
+.play-2 {
+  font-size: 28px !important;
+  color: red;
+  z-index: 2 !important;
+}
+.play-icon:hover {
+  transform: translate(-50%, -50%) scale(0.9);
+  cursor: pointer;
+
+  transition: all 100ms ease-in;
+}
+.play-icon:hover .fa-play {
+  color: white;
+}
+.vedio:hover ~ .play-icon .play-2 {
+  display: none;
+  transition: all 0.5s ease;
+}
+.vedio:hover ~ .play-icon {
+  opacity: 1;
+}
+.vedio:hover ~ .play-icon .fa-play {
+  color: white;
+}
+.vedioFrame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%) scale(1);
+  background: #000;
+  z-index: -1;
+  border-radius: 20px;
+}
+.vedioFrame.show {
+  z-index: 22;
+}
+.vedio-relative .vediologo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+@media screen and (min-width: 1440px) {
+  .vedioFrame,
+  .vedio {
+    height: 650px !important;
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vedio-relative .vediologo {
+    bottom: -60px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .vedioFrame,
+  .vedio {
+    height: 450px !important;
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .vedio-relative .vediologo {
+    bottom: -20px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vedioFrame,
+  .vedio {
+    height: 100%;
+    width: 95%;
+  }
+  .vedio-relative .vediologo {
+    bottom: -40px !important;
+  }
+}

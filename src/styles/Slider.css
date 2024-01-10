@@ -1,0 +1,150 @@
+.swiper-pagination {
+  opacity: 1 !important;
+  position: absolute;
+  top: 60% !important;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Slider {
+  height: 100vh;
+}
+.swiper-pagination-horizontal {
+  top: 82% !important;
+
+  left: 50% !important;
+  height: 50px;
+}
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  border-radius: 0px !important;
+  margin: 0px !important;
+  padding: 0.1px 0px !important;
+  background: #84aac6 !important;
+  color: #84aac6 !important;
+  width: 7% !important;
+  height: 1px !important;
+}
+.swiper-pagination-bullet-active {
+  padding: 5px 0px !important;
+  border-radius: 5px !important;
+}
+.swiper-button-prev:after {
+  font-size: 30px !important;
+}
+.swiper-button-next:after {
+  font-size: 30px !important;
+}
+
+.swiper-button-prev {
+  color: #84aac6 !important;
+
+  width: 60% !important;
+  z-index: 909 !important;
+}
+.swiper-button-next {
+  width: 60% !important;
+  color: #84aac6 !important;
+}
+.activeIndex {
+  color: #84aac6 !important;
+  position: absolute;
+
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.totalIndex {
+  color: #84aac6 !important;
+  position: absolute;
+  right: 33%;
+  transform: translate(-50%, -50%);
+}
+.swiper-button-prev,
+.swiper-button-next,
+.activeIndex,
+.totalIndex {
+  top: 82% !important;
+  z-index: 555 !important;
+}
+.sliderImages {
+  height: 98vh;
+  width: 100%;
+  object-fit: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 98vh;
+  width: 100%;
+  z-index: 1 !important;
+  opacity: 0.6;
+}
+.SliderContent {
+  position: absolute;
+  z-index: 2 !important;
+  top: 30%;
+}
+.aboutBtn {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #dc0d1b;
+  border: 1px solid #dc0d1b !important;
+  padding: 8px 40px;
+  transition: all 0.4s ease;
+}
+.aboutBtn:hover {
+  background: white;
+  color: #dc0d1b;
+  transition: all 0.4s ease;
+}
+@media screen and (min-width: 1500px) {
+  .SliderContent {
+    left: 25% !important ;
+  }
+
+}
+@media screen and (max-width: 1440px) {
+  .SliderContent {
+    left: 5% !important;
+  }
+ 
+}
+@media (min-width: 1366px) {
+ 
+}
+
+@media (max-width: 1366px) {
+  .SliderContent {
+    left: 9% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .SliderContent {
+    left: 5% !important;
+  }
+ 
+}
+@media screen and (max-width: 500px) {
+  .swiper-button-prev {
+    width: 45% !important;
+  }
+  .swiper-button-next {
+    width: 45% !important;
+  }
+  .activeIndex {
+    left: 32%;
+  }
+  .totalIndex {
+    right: 29%;
+  }
+}

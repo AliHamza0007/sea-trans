@@ -1,0 +1,39 @@
+.advantageIcon {
+  width: 60px;
+  height: 60px;
+}
+.advantageIcon ~ .vr {
+  background-color: #84aac6;
+  opacity: 1;
+  width: 3px;
+}
+@media screen and (min-width: 1441px) {
+  .advantage {
+    padding-top: 20%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .advantage {
+    padding-top: 50%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .advantage {
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .advantage {
+    padding-top: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .advantage {
+    padding-top: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .advantage {
+    padding-top: 100%;
+  }
+}

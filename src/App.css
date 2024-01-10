@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./assets/font/Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(./assets/font/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(./assets/font/Gilroy-Regular.ttf);
+}
+.font-gilroy-bold {
+  font-family: Gilroy-Bold;
+}
+.font-gilroy-semibold {
+  font-family: Gilroy-SemiBold;
+}
+.cb {
+  color: #244d6a !important;
+}
+.text-decoration-none,
+Link {
+  cursor: pointer;
+}
+.sf {
+  color: #6e6e6e;
+  font-family: Gilroy-SemiBold;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.25em;
+}
