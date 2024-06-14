@@ -26,14 +26,14 @@ A Robust Elementor Template Conversion into React JS for Streamlined Development
 
 ## ⚙️ Tech Stack
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=blue)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
+![Node.js](https://img.shields.io/badge/Node.js-red?style=for-the-badge&logo=node.js&logoColor=blue)
+![React](https://img.shields.io/badge/React-yellow?style=for-the-badge&logo=react&logoColor=blue)
 ![React DOM](https://img.shields.io/badge/React_DOM-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
-![React Reveal](https://img.shields.io/badge/React_Reveal-61DAFB?style=for-the-badge&logo=react&logoColor=Green)
-![React Router DOM](https://img.shields.io/badge/React_Router_DOM-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
+![React Reveal](https://img.shields.io/badge/React_Reveal-pink?style=for-the-badge&logo=react&logoColor=Green)
+![React Router DOM](https://img.shields.io/badge/React_Router_DOM-brown?style=for-the-badge&logo=react&logoColor=blue)
 ![React Scroll](https://img.shields.io/badge/React_Scroll-green?style=for-the-badge&logo=react&logoColor=red)
-![React Select Country List](https://img.shields.io/badge/React_Select_Country_List-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Swiper](https://img.shields.io/badge/Swiper-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![React Select Country List](https://img.shields.io/badge/React_Select_Country_List-gray?style=for-the-badge&logo=react&logoColor=white)
+![Swiper](https://img.shields.io/badge/Swiper-voilet?style=for-the-badge&logo=react&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 
 ---
