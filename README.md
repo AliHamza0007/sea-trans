@@ -31,7 +31,7 @@ A Robust Elementor Template Conversion into React JS for Streamlined Development
 ![React DOM](https://img.shields.io/badge/React_DOM-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
 ![React Reveal](https://img.shields.io/badge/React_Reveal-61DAFB?style=for-the-badge&logo=react&logoColor=Green)
 ![React Router DOM](https://img.shields.io/badge/React_Router_DOM-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
-![React Scroll](https://img.shields.io/badge/React_Scroll-green?style=for-the-badge&logo=react&logoColor=white)
+![React Scroll](https://img.shields.io/badge/React_Scroll-green?style=for-the-badge&logo=react&logoColor=red)
 ![React Select Country List](https://img.shields.io/badge/React_Select_Country_List-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Swiper](https://img.shields.io/badge/Swiper-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-61DAFB?style=for-the-badge&logo=react&logoColor=white)
